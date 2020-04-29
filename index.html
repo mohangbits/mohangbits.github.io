@@ -60,11 +60,16 @@
   <!-- Google Analytics Tracking Tag. Track how people access my site and such.
        (assuming they don't block ads or whatever from Google) -->
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-T856QFZ');</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165001430-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165001430-1');
+</script>
+
   <!-- End Google Tag Manager -->
 
 </head>
@@ -428,6 +433,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                    set to 1 (awesome new bootstrap 4 mb-1 class)-->
   <div class="container">
     <p class="text-center text-muted text-faded text-small mb-1" style="font-size:.2rem">
+    <!-- Site Counter -->
+        <img height="25" width="100" src="https://counter3.stat.ovh/private/freecounterstat.php?c=9rpp9skbsmm63pee1xuc55pb6356f3l8"  border="0" >
+    <!-- End of Site Counter -->
+            </br></br>
+
       Mohan Gajula &copy; 2015 - 2020. All rights reserved.
       Powered by <a href="http://www.getbootstrap.com/">Bootstrap</a>.
     </p>
